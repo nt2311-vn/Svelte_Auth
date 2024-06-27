@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainContainer {
+	min-height: 100vh;
+	background: linear-gradient(to right, #000428, #000046);
+	color: white;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}

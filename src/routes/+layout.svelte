@@ -1,4 +1,5 @@
 <script>
+	import '../app.css';
 	import { onMount } from 'svelte';
 	import { auth } from '../lib/firebase/firebase.client.js';
 	onMount(() => {
@@ -8,4 +9,6 @@
 	});
 </script>
 
-<slot />
+<div class="mainContainer">
+	<slot />
+</div>
